@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "mod-template",
+  "id": "gem-killaura",
   "version": "${version}",
-  "name": "mod-template",
+  "name": "gem-killaura",
   "description": "",
   "authors": [],
   "contact": {
-    "repo": "https://github.com/gavinsmod/mod-template"
+    "repo": "https://github.com/gavinsmod/gem-killaura"
   },
   "license": "MIT",
-  "icon": "assets/mod-template/icon.png",
+  "icon": "assets/gem-killaura/icon.png",
   "environment": "client",
   "entrypoints": {
     "main": [
@@ -17,11 +17,11 @@
     ]
   },
   "mixins": [
-    "mod-template.mixins.json"
+    "gem-killaura.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "gavinsmod": ">=1.4.5",
+    "gemclient-core": ">=1.0.1",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
